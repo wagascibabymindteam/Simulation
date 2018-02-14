@@ -1,0 +1,1 @@
+./IngMC -o test.root -i ../../neut/10d_nd2_numu_ch_1.nt -m 2 -f 1

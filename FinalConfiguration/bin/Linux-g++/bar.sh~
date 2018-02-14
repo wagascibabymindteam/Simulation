@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./IngMC -o /export/scraid1/data/kikawa/mc_t2kreweight_pm_new/pmmc_${1}_bar.root -i /export/scbn07/data2/kikawa/neutfile_run2/11bfluka_nd2_numubar_ch_${1}.nt -m 2 -f 2
+./IngMC -o /export/scraid1/data/kikawa/mc_t2kreweight_new/ingmc_nd3_run1_${1}_bar.root -i /export/scbn07/data2/kikawa/neutfile_run1/11bfluka_nd3_numubar_fe_${1}.nt -m 3 -f 2
+./IngMC -o /export/scraid1/data/kikawa/mc_t2kreweight_new/ingmc_nd3_run2_${1}_bar.root -i /export/scbn07/data2/kikawa/neutfile_run2/11bfluka_nd3_numubar_fe_${1}.nt -m 3 -f 2

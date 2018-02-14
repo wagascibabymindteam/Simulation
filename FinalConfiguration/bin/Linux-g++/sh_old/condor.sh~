@@ -1,0 +1,3 @@
+condor_submit bg1____.cmd
+condor_submit bg2____.cmd
+condor_submit bg3____.cmd
